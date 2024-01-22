@@ -1,0 +1,48 @@
+body {
+    height: 100vh;/*100% of window's height*/
+    display: flex;
+    flex-direction: column;
+    background-color: #32932a;
+    
+}
+
+#top{
+    display: flex;
+    justify-content: center;
+}
+
+#middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#container {
+    display: flex;
+    max-width: 352px ;
+    max-height: 352px;
+    flex-wrap: wrap;
+}
+
+.my_button {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 5px;
+    border: none;
+}
+
+
